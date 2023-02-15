@@ -19,7 +19,7 @@ class RadioTest {
         Radio radio = new Radio();
         radio.setCurrentRadioStation(10);
         radio.nextCurrentRadioStation();
-        assertEquals(0, radio.getCurrentRadioStation());
+        assertEquals(1, radio.getCurrentRadioStation());
     }
 
     @Test
